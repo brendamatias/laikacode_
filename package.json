@@ -2,6 +2,7 @@
   "name": "laikacode",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "polished": "^3.4.1",
     "prop-types": "^15.7.2",
