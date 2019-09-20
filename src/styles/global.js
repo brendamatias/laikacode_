@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700&display=swap');
   @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
   * {
     margin: 0;
@@ -24,7 +25,7 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font: 14px 'Raleway', sans-serif;
+    font: 14px 'Open Sans', sans-serif;
   }
 
   a {

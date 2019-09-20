@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
         <MenuLinks>
           <li>
-            <Link to="/">Services</Link>
+            <a to="/">Services</a>
             <ul>
               <li>Lorem ipsum</li>
               <li>Ipsum dummy</li>
@@ -58,7 +58,7 @@ export default function Footer() {
             </ul>
           </li>
           <li>
-            <Link to="/">About</Link>
+            <a to="/">About</a>
             <ul>
               <li>Lorem ipsum</li>
               <li>Ipsum dummy</li>
@@ -67,7 +67,7 @@ export default function Footer() {
             </ul>
           </li>
           <li>
-            <Link to="/">Portfolio</Link>
+            <a to="/">Portfolio</a>
             <ul>
               <li>Lorem ipsum</li>
               <li>Ipsum dummy</li>
@@ -76,7 +76,7 @@ export default function Footer() {
             </ul>
           </li>
           <li>
-            <Link to="/">Contact</Link>
+            <a to="/">Contact</a>
             <ul>
               <li>Lorem ipsum</li>
               <li>Ipsum dummy</li>
@@ -84,7 +84,7 @@ export default function Footer() {
             </ul>
           </li>
           <li>
-            <Link to="/">Blog</Link>
+            <a to="/">Blog</a>
             <ul>
               <li>Lorem ipsum</li>
               <li>Ipsum dummy</li>

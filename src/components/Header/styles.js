@@ -2,13 +2,16 @@ import styled from 'styled-components';
 import background from '../../assets/home.svg';
 
 export const HeaderContainer = styled.header`
+  font-family: 'Raleway', sans-serif;
   height: 100%;
   background: url(${background}) no-repeat right bottom;
   background-size: 60%;
+  background-color: #f5f8fd;
 
   .fixed {
     background: #f6494d;
     transition: background 0.3s;
+    z-index: 1;
     li {
       a {
         color: #fff;

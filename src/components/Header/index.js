@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { Link } from 'react-router-dom';
+import { a } from 'react-router-dom';
 import { HeaderContainer, ContainerTop, ContainerBottom } from './styles';
 import { MdExpandMore } from 'react-icons/md';
 
@@ -26,22 +26,22 @@ export default function Header() {
           <img src={scroll > 100 ? logowhite : logo} alt="LaikaCode" />
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li>
-              <Link to="/">Services</Link>
+              <a href="/">Services</a>
             </li>
             <li>
-              <Link to="/">About</Link>
+              <a href="/">About</a>
             </li>
             <li>
-              <Link to="/">Portfolio</Link>
+              <a href="/">Portfolio</a>
             </li>
             <li>
-              <Link to="/">Contact</Link>
+              <a href="/">Contact</a>
             </li>
             <li>
-              <Link to="/">Blog</Link>
+              <a href="/">Blog</a>
             </li>
           </ul>
         </div>
