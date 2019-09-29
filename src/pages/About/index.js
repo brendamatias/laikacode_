@@ -8,9 +8,9 @@ import about from '../../assets/about.svg';
 
 export default function About() {
   return (
-    <Section>
+    <Section id="about">
       <HeaderSection>
-        <h1>About Us</h1>
+        <h1>Sobre nós</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -12,6 +12,7 @@ export const HeaderContainer = styled.header`
     background: #f6494d;
     transition: background 0.3s;
     z-index: 1;
+
     li {
       a {
         color: #fff;
