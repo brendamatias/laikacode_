@@ -26,19 +26,19 @@ export default function Header() {
           <img src={scroll > 100 ? logowhite : logo} alt="LaikaCode" />
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a href="/">Início</a>
             </li>
             <li>
-              <a href="/">Services</a>
+              <a href="#about">Sobre</a>
             </li>
             <li>
-              <a href="/">About</a>
+              <a href="#services">Serviços</a>
             </li>
             <li>
-              <a href="/">Portfolio</a>
+              <a href="#portfolio">Portfólio</a>
             </li>
             <li>
-              <a href="/">Contact</a>
+              <a href="#contact">Contato</a>
             </li>
             <li>
               <a href="/">Blog</a>

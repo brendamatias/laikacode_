@@ -49,18 +49,18 @@ export default function Footer() {
         </div>
         <MenuLinks>
           <li>
-            <a to="/">Services</a>
+            <a to="/">About</a>
             <ul>
-              <li>Lorem ipsum</li>
-              <li>Ipsum dummy</li>
+              <li>Sobre nós</li>
+              <li>Nosso time</li>
               <li>Dummy text</li>
               <li>Text</li>
             </ul>
           </li>
           <li>
-            <a to="/">About</a>
+            <a to="/">Services</a>
             <ul>
-              <li>Lorem ipsum</li>
+              <li>Nossos Serviços</li>
               <li>Ipsum dummy</li>
               <li>Dummy text</li>
               <li>Text</li>
