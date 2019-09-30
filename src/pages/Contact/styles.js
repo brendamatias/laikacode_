@@ -14,7 +14,7 @@ export const Section = styled.div`
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 0.4fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 60px;
   justify-content: center;
 `;
@@ -23,14 +23,18 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
 
-  input, textarea {
+  input,
+  textarea {
     margin: 5px 0;
     border: 0;
-    border-bottom: 1px solid #f6494d;
-    padding: 5px;
+    padding: 15px;
+    font-size: 14px;
+    background: #ecf5ff;
+    border-radius: 4px;
   }
 
-  input::placeholder, textarea::placeholder {
+  input::placeholder,
+  textarea::placeholder {
     font: 14px 'Open Sans', sans-serif;
   }
 
@@ -40,7 +44,13 @@ export const Form = styled.form`
   }
 
   button {
-    margin-top: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    background: #f6494d;
+    border: none;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: bold;
   }
 `;
 

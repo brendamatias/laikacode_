@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import {
   FooterContainer,
   ContainerTop,
   LinksIcons,
-  MenuLinks,
+  Description,
   ContainerBottom,
 } from './styles';
 
@@ -21,76 +21,38 @@ export default function Footer() {
   return (
     <FooterContainer>
       <ContainerTop>
-        <div>
-          <img src={logo} alt="LaikaCode" />
-          <LinksIcons>
-            <li>
-              <a>
-                <FaGithub />
-              </a>
-            </li>
-            <li>
-              <a>
-                <FaFacebookF />
-              </a>
-            </li>
-            <li>
-              <a>
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li>
-              <a>
-                <FaInstagram />
-              </a>
-            </li>
-          </LinksIcons>
-          <span>hello@laikacode</span>
-        </div>
-        <MenuLinks>
+        <Description>
+          <div>
+            <img src={logo} alt="LaikaCode" />
+          </div>
+          <div>
+            <span>(81) 99862-6092</span>
+            <p>hello@laikacode</p>
+            <p>Recife - PE</p>
+          </div>
+        </Description>
+        <LinksIcons>
           <li>
-            <a to="/">About</a>
-            <ul>
-              <li>Sobre nós</li>
-              <li>Nosso time</li>
-              <li>Dummy text</li>
-              <li>Text</li>
-            </ul>
+            <a href="https://github.com/">
+              <FaGithub />
+            </a>
           </li>
           <li>
-            <a to="/">Services</a>
-            <ul>
-              <li>Nossos Serviços</li>
-              <li>Ipsum dummy</li>
-              <li>Dummy text</li>
-              <li>Text</li>
-            </ul>
+            <a href="https://github.com/">
+              <FaFacebookF />
+            </a>
           </li>
           <li>
-            <a to="/">Portfolio</a>
-            <ul>
-              <li>Lorem ipsum</li>
-              <li>Ipsum dummy</li>
-              <li>Dummy text</li>
-              <li>Text</li>
-            </ul>
+            <a href="https://github.com/">
+              <FaLinkedinIn />
+            </a>
           </li>
           <li>
-            <a to="/">Contact</a>
-            <ul>
-              <li>Lorem ipsum</li>
-              <li>Ipsum dummy</li>
-              <li>Dummy text</li>
-            </ul>
+            <a href="https://github.com/">
+              <FaInstagram />
+            </a>
           </li>
-          <li>
-            <a to="/">Blog</a>
-            <ul>
-              <li>Lorem ipsum</li>
-              <li>Ipsum dummy</li>
-            </ul>
-          </li>
-        </MenuLinks>
+        </LinksIcons>
       </ContainerTop>
       <ContainerBottom>
         <span>© 2019 LaikaCode. Todos os Direitos Reservados.</span>

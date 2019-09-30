@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { darken } from 'polished';
 
 export const FooterContainer = styled.footer``;
 
@@ -10,19 +9,26 @@ export const ContainerTop = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   color: #fff;
+`;
 
+export const Description = styled.div`
+  display: flex;
+  align-items: center;
+  div {
+    margin-right: 40px;
+  }
   span {
     font-weight: 600;
-    color: #f6494d;
     cursor: pointer;
   }
 `;
 
 export const LinksIcons = styled.ul`
   display: grid;
-  grid-template-columns: repeat(4, 0.06fr);
+  grid-template-columns: repeat(4, 0.04fr);
   margin-top: 40px;
   margin-bottom: 15px;
+  justify-content: flex-end;
 
   li {
     a {
@@ -34,25 +40,6 @@ export const LinksIcons = styled.ul`
         transition: all 0.2s;
         color: #f6494d;
       }
-    }
-  }
-`;
-
-export const MenuLinks = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
-
-  li {
-    ul li {
-      margin: 10px 0;
-    }
-    a {
-      letter-spacing: 0.2rem;
-      font-size: 12px;
-      color: #fff;
-      text-transform: uppercase;
-      font-weight: bold;
     }
   }
 `;

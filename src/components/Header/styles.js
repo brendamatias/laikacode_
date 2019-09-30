@@ -50,6 +50,29 @@ export const ContainerTop = styled.div`
       }
     }
   }
+
+  @media (max-width: 700px) {
+    padding: 1rem 0;
+
+    img {
+      width: 30%;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+
+        li {
+          margin: 5px 0;
+        }
+      }
+    }
+  }
 `;
 
 export const ContainerBottom = styled.div`
